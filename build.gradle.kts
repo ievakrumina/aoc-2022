@@ -12,6 +12,9 @@ repositories {
 }
 
 dependencies {
+    implementation("com.mikemybytes:junit5-formatted-source:0.1.0")
+    implementation("com.mikemybytes:junit5-formatted-source-parent:0.1.0")
+    implementation("com.mikemybytes:junit5-formatted-source-tests:0.1.0")
     testImplementation(kotlin("test"))
 }
 
